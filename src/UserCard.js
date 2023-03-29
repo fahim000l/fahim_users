@@ -11,7 +11,6 @@ const UserCard = ({ user }) => {
       <div className="card-body text-start">
         <h2 className="card-title">{name}</h2>
         <p>{email}</p>
-        <p>{website}</p>
         <p>City:{address.city}</p>
         <p>Phone Number:{phone}</p>
       </div>
